@@ -17,12 +17,11 @@
     >
       <fieldset class="groups">
         <legend>Personal information</legend>
-        <label class="form-field">
-          Surname:
+        <label class="form-field"> Surname:
           <input
-            type="text"
-            name="Surname:"
-            autocomplete="off"
+          type="text"
+          name="Surname:"
+          autocomplete="off"
           >
         </label>
         <label class="form-field"> Name:
@@ -41,13 +40,19 @@
           value="12"
           >
         </label>
-        <label class="form-field"> Full date of birth: <input type="date" name="birthday"> </label>
+        <label class="form-field">
+          Full date of birth:
+          <input
+            type="date"
+            name="birthday"
+          >
+        </label>
         <label class="form-field">
           I accept the term of the agreement
           <input
-          type="checkbox"
-          name="IAcceptTheTermOfThrAgreement"
-          required
+            type="checkbox"
+            name="IAcceptTheTermOfThrAgreement"
+            required
           >
         </label>
       </fieldset>
@@ -55,20 +60,25 @@
       <fieldset class="groups">
         <legend>Registration</legend>
         <label class="form-field">
-          E-mail: <input type="email" placeholder="email@example.com" >
-        </label>
-        <label class="form-field"> Password:
+          E-mail:
           <input
-          type="password"
-          minlength="6"
-          maxlength="10"
+            type="email"
+            placeholder="email@example.com"
+          >
+        </label>
+        <label class="form-field">
+          Password:
+          <input
+            type="password"
+            minlength="6"
+            maxlength="10"
           >
         </label>
       </fieldset>
 
       <fieldset class="groups">
         <legend>An interesting fact about you!</legend>
-        <label class="form-field">
+        <div class="form-field">
           Do you love cats?
           <label>
             <input type="radio" name="Do you love cats?"> Yes
@@ -76,26 +86,49 @@
           <label>
             <input type="radio" name="Do you love cats?"> No
           </label>
+        </div>
+        <label class="form-field">
+          What is your favorite color?
+          <input
+            type="color"
+            name="What is your favorite color?"
+          >
         </label>
-        <label class="form-field"> What is your favorite color? <input type="color" name="What is your favorite color?"> </label>
-        <label class="form-field"> What time do you go to bed? <input type="time" name="What time do you go to bed?"> </label>
+        <label class="form-field">
+          What time do you go to bed?
+          <input
+            type="time"
+            name="What time do you go to bed?"
+          >
+        </label>
         <label class="form-field">
           What are your favorite brend of car?
-          <select name="WhatAreYourFavoriteBrendOfCar?" multiple>
+          <select
+            name="WhatAreYourFavoriteBrendOfCar?"
+            multiple
+          >
             <option value="BMW">BMW</option>
             <option value="Audi" selected>Audi</option>
             <option value="Lada">Lada</option>
           </select>
         </label>
-        <label class="form-field"> How do you rate our work? <input type="range"  name="How do you rate our work?"> </label>
+        <label class="form-field">
+          How do you rate our work?
+          <input
+            type="range"
+            name="How do you rate our work?"
+          >
+        </label>
       </fieldset>
 
       <fieldset class="groups">
         <legend>Additional info:</legend>
-        <label class="form-field"> Comments:
+        <label class="form-field">
+          Comments:
           <textarea rows="2" cols="20"></textarea>
         </label>
-        <label class="form-field">Woulg you recommend us?
+        <label class="form-field">
+          Woulg you recommend us?
           <select name="WoulgYouRecommendUs?">
             <option value="yes">yes</option>
             <option value="no">no</option>

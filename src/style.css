@@ -1,5 +1,4 @@
 .form-field {
-
   display: block;
   margin-bottom: 10px;
 }
@@ -9,11 +8,9 @@
 }
 
 .form-field-radio {
-
   display: inline;
 }
 
 .groups {
-
   margin-bottom: 20px;
 }
